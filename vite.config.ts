@@ -8,6 +8,7 @@ export default defineConfig({
     { enforce: 'pre', ...mdx() },
     react({ include: /\.(mdx|js|jsx|ts|tsx)$/  })
   ],
+  base: '/web-job-app/',
   test: {
     globals: true,
     environment: "jsdom",
